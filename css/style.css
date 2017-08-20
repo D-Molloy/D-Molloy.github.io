@@ -26,7 +26,9 @@
 }*/
 
 .tech-img {
-	width: 140px;
+	margin: 5px 10px;
+	width: 10%;
+	min-width: 70px;
 	align-self: center;
 }
 
