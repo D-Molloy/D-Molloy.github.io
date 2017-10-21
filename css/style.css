@@ -13,7 +13,6 @@
 	width: 15%;
 	min-width: 180px;
 	border: 3px solid #4885ed;
-	margin-top: 30px;
 }
 
 .tech-div {
@@ -22,9 +21,6 @@
 	flex-wrap: wrap;
 }
 
-/*.div-line {
-	margin-bottom: 20px;
-}*/
 
 .tech-img {
 	margin: 5px 10px;
@@ -79,6 +75,10 @@ div.chip {
 @media screen and (max-width: 335px) {
 	#top-page {
 		font-size: 20px !important;
+	}
+	
+	.profile-pic {
+		margin-top: 30px;
 	}
 } 
 
