@@ -1,89 +1,59 @@
- /** {border: 1px solid black;}*/
-.title-banner {
-	margin-top: 30px;
+/** {border: 1px solid black;}*/
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("../fonts/roboto/Roboto-Thin.woff");
+}
+:root {
+  --ocean: #338286;
+  --eggplant: #4f3558;
+  --offwhite: #e9e7ea;
+  --grey: #919096;
+  --teal: #02a68e;
+}
+
+nav ul a,
+ul.dropdown-content li a {
+  color: var(--grey);
+}
+nav .brand-logo,
+ul.dropdown-content li a span,
+.side-nav li a span {
+  font-family: Roboto-Thin, sans-serif;
+  color: var(--offwhite);
+}
+
+ul.dropdown-content li a span:hover{
+	color: var(--eggplant);
+}
+
+ul.dropdown-content,
+#navigation-top,
+#navigation-bottom,
+ul#mobile-demo.side-nav,
+.side-nav li > a  {
+  color: var(--grey);
+  background-color: var(--eggplant);
+}
+
+.side-nav li > a{
 	width: 100%;
-	position: absolute;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	color: white;
-
+	padding-right: 0;
 }
-.profile-pic {
-	margin: auto;
-	width: 12%;
-	min-width: 180px;
-	max-width: 200px;
-	border: 3px solid #4885ed;
+ul.dropdown-content li a span,
+.side-nav li a span{
+	font-size:18px;
 }
 
-.tech-div {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+#main-body{
+	background-color: var(--offwhite);
 }
 
-.about-text {
-	font-size: 20px;
-}
-.tech-img {
-	margin: 5px 10px;
-	width: 10%;
-	min-width: 70px;
-	align-self: center;
-}
+/* @media screen and (max-width: 335px) {
+  #top-page {
+    font-size: 20px !important;
+  }
 
-.project-div {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.hw-panel {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 20%;
-	min-width: 120px;
-	min-height: 150px;
-	margin: 10px;
-}
-
-.hw-panel-text {
-	font-size: 18px;
-	text-align: center;
-}
-
-.hw-screen {
-	border: 1px solid #4885ed;
-}
-
-.modal-btn {
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-/* Modal Styling */
-.fan-title {
-	margin-bottom: 5px;
-}
-
-div.chip {
-	margin-top: 5px;
-}
-
-.title-obj,
-.title-result {
-	font-weight: bold;
-}
-
-@media screen and (max-width: 335px) {
-	#top-page {
-		font-size: 20px !important;
-	}
-
-	.profile-pic {
-		margin-top: 30px;
-	}
-}
+  .profile-pic {
+    margin-top: 30px;
+  }
+} */

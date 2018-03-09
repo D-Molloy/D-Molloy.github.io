@@ -3,7 +3,7 @@
 
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-81001809-2"></script>
+	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81001809-2"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -13,8 +13,8 @@
 		gtag('js', new Date());
 
 		gtag('config', 'UA-81001809-2');
-	</script>
-	<title>Denis Molloy | Full Stack Dev | UX Lover</title>
+	</script> -->
+	<title>Denis Molloy | Full-Stack Developer</title>
 	<meta name="description" content="Denis Molloy - a Full Stack Web Developer who loves creating unique and engaging user experiences.  Passionate about learning, expanding my craft, and being a part of something greater than myself.">
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="img/<png>" href="images/fav.png">
@@ -29,732 +29,163 @@
 <body>
 	<!-- navbar -->
 	<nav>
-		<div class="nav-wrapper blue">
+		<div class="nav-wrapper" id="navigation-top">
+			<ul id="nav-mobile" class="right hide-on-med-and-down ">
+				<li>
+					<a href="https://www.linkedin.com/in/denismolloy/" target="_blank">Portfolio</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/denismolloy/" target="_blank">About</a>
+				</li>
+				<li>
+					<!-- Dropdown Trigger -->
+
+					<a class='dropdown-button' href='#' data-activates='dropdown1'>Connect</a>
+				</li>
+			</ul>
+
 			<a href="#" id="top-page" class="brand-logo center">
 				<span class="title-name">Denis Molloy</span>
 			</a>
 			<a href="#" data-activates="mobile-demo" class="button-collapse">
 				<i class="material-icons">menu</i>
 			</a>
-			<ul id="nav-mobile" class="right hide-on-med-and-down ">
+
+			<!-- Dropdown Trigger
+
+			<a class='dropdown-button' href='#' data-activates='dropdown1'>Drop Me!</a> -->
+
+			<!-- Dropdown Structure -->
+			<ul id='dropdown1' class='dropdown-content'>
 				<li>
-					<a href="https://www.linkedin.com/in/denismolloy/" target="_blank">LinkedIn</a>
+					<a class="right-align" href="tel:206-516-9335">Phone:
+						<span cleass="sub-text">206.516.9335</span>
+					</a>
 				</li>
 				<li>
-					<a href="https://github.com/D-Molloy" target="_blank">GitHub</a>
+					<a class="right-align" href="mailto:denis.molloy@gmail.com">Email:
+						<span cleass="sub-text">denis.molloy@gmail.com</span>
+					</a>
+				</li>
+				<li class="divider"></li>
+				<li>
+					<a class="right-align" href="https://github.com/D-Molloy" target="_blank">GitHub</a>
 				</li>
 				<li>
-					<a href="https://twitter.com/Drimbane" target="_blank">Twitter</a>
+					<a class="right-align" href="https://www.linkedin.com/in/denismolloy/" target="_blank">LinkedIn</a>
 				</li>
 				<li>
-					<a href="mailto:denis.molloy@gmail.com">Email</a>
-				</li>
-				<li>
-					<a href="tel:206-516-9335">Phone</a>
+					<a class="right-align" href="https://twitter.com/Drimbane" target="_blank">Twitter</a>
 				</li>
 			</ul>
+
+
 			<ul class="side-nav" id="mobile-demo">
 				<li>
-					<a href="#!">Contact</a>
-				</li>
-				<div class="divider"></div>
-				<li>
-					<a href="tel:206-516-9335">Phone</a>
+					<a class="left-align" href="tel:206-516-9335">Phone:
+						<span cleass="sub-text">206.516.9335</span>
+					</a>
 				</li>
 				<li>
-					<a href="mailto:denis.molloy@gmail.com">Email</a>
+					<a class="left-align" href="mailto:denis.molloy@gmail.com">Email:
+						<span cleass="sub-text">denis.molloy@gmail.com</span>
+					</a>
 				</li>
-				<div class="divider"></div>
+				<li class="divider"></li>
 				<li>
-					<a href="https://www.linkedin.com/in/denismolloy/" target="_blank">LinkedIn</a>
+					<a class="left-align" href="https://github.com/D-Molloy" target="_blank">GitHub</a>
 				</li>
 				<li>
-					<a href="https://github.com/D-Molloy" target="_blank">GitHub</a>
+					<a class="left-align" href="https://www.linkedin.com/in/denismolloy/" target="_blank">LinkedIn</a>
 				</li>
 				<li>
-					<a href="https://twitter.com/Drimbane" target="_blank">Twitter</a>
+					<a class="left-align" href="https://twitter.com/Drimbane" target="_blank">Twitter</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 	<!-- end navbar -->
 	<!-- start parallax -->
-	<div class="title-banner">
-		<img class="responsive-img circle profile-pic" alt="Denis Molloy Profile Picture" src="images/2016.PNG">
-
-	</div>
-
 	<div class="parallax-container">
 		<div class="parallax">
 			<img src="images/bg-katwalk.png">
 		</div>
 	</div>
-	<div class="section white z-depth-5">
+	<div class="section z-depth-5" id="main-body">
 		<div class="row container">
-			<h4 class="header">About Me</h4>
+			<h4 class="header">Recent projects</h4>
 			<div class="divider"></div>
-			<p class="about-text">Certified full-stack web developer with a decade of professional product development, project management, and quality	assurance experience seeking to start a new career in web development. Passionate about learning, teamwork, problem solving, exceeding goals and creating engaging user experiences. Hungry to start contributing to a like-minded team!</p>
-			<p class="about-text">Please take the time to checkout my projects below. If you like what you see, don't hesitate to get in touch with me and feel free to download a copy of my resume	<a href="docs/dkm-resume.pdf" target="_blank">here</a>. Thanks for your time. Let's start creating together!</p>
-
-		</div>
-		<div class="row container project ">
-			<h4 class="header">Projects</h4>
-			<div class="divider div-line"></div>
-			<div class="project-div">
-				<!-- Crewify Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">Crewify</h6>
-					<img class="hw-screen responsive-img" alt="Crewify Project Screenshot" src="images/hw-crewify.PNG">
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal15">View</a>
-					<!-- Modal Structure -->
-					<div id="modal15" class="modal">
-						<div class="modal-content ireland-update">
-							<h4>Crewify</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/bootstrap.png" alt="Bootstrap Tag"> Bootstrap
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/react1.png" alt="React Tag"> React.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/node.png" alt="Node.js Tag"> Node.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/express.png" alt="Express.js Tag"> Express.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/mongodb.png" alt="MongoDB Tag"> MongoDB
-							</div>
-							<div class="chip">
-								Auth0
-							</div>
-							<div class="chip">
-								mongoose
-							</div>
-							<div class="chip">
-								axios
-							</div>
-							<div class="chip">
-								RESTful APIs
-							</div>
-							<div class="chip">
-								Responsive Design
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Create a real-world app built in React.</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>Crewify was built for a collaborator's employer, who where still using an inefficient paper-based
-								jobs system. The app helps crew-based businesses manage and streamline their job workflow. Managers can create jobs
-								as well as search jobs to check status as well as performance metrics. Crews can access their jobs, utilize navigation
-								and phone links, and enter job details and mark jobs complete.</p>
+			<div class="slider">
+				<ul class="slides">
+					<li>
+						<img src="https://lorempixel.com/580/250/nature/1">
+						<!-- random image -->
+						<div class="caption center-align">
+							<h3>This is our big Tagline!</h3>
+							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
 						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://whispering-tor-71112.herokuapp.com/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Page</a>
-							<a href="https://github.com/D-Molloy/Project-Tria" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
+					</li>
+					<li>
+						<img src="https://lorempixel.com/580/250/nature/2">
+						<!-- random image -->
+						<div class="caption left-align">
+							<h3>Left Aligned Caption</h3>
+							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
 						</div>
-					</div>
-				</div>
-				<!-- Crewify End -->
-				<!-- Fandemonium Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">Fandemonium</h6>
-					<img class="hw-screen responsive-img" alt="Fandemonium Project Screenshot" src="images/hw-fan.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal8">View</a>
-					<!-- Modal Structure -->
-					<div id="modal8" class="modal">
-						<div class="modal-content">
-							<h4 class="fan-title">Fandemonium</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/bootstrap.png" alt="Bootstrap Tag"> Bootstrap
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/jquery.png" alt="jQuery Tag"> jQuery
-							</div>
-							<div class="chip">
-								Moment.js
-							</div>
-							<div class="chip">
-								Bootbox.js
-							</div>
-							<div class="chip">
-								Bootstrap-datepicker.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/firebase.png" alt="Firebase Tag"> Firebase
-							</div>
-							<div class="chip">
-								RESTful APIs
-							</div>
-							<div class="chip">
-								Responsive Design
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Working with a group, incorporate all of the learning thus far in the course. Requirements: sites
-								must use at least two APIs, AJAX to pull data from those APIs, at least one new library/technology not learned in
-								class, a CSS Framework, use Firebase for data storage, user input validation, and a polished front end.</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>As a part of a 3-person team, we came up with Fandemonium; a site for music fans that provides one-stop
-								shop for all pertinent information regarding your favorite artists. You can search for your favorite artists and
-								find links to their Wikipedia page and social media, along with (if available) an interactive map to all of their
-								upcoming tour dates and links to purchase tickets. My conrtibutions included the final UI design, handling and validating
-								user input (using JS/Moment.js, and the implementation of Bootbox.js for easy input error message modals), the AJAX
-								calls to the MusicGraph API to get artist links and use that information to populate the Links panel, and CSS media
-								queries to ensure the page looks/functions well on mobile devices.</p>
-							<p class="modal-result">
-								<span class="title-result">UPDATE: </span>Sadly, the MusicGraph API is no longer live, so this app is not currently functioning. I'm looking
-								for a suitable replacement API, but haven't found anything yet. Until then, feel free to look over the code repo.</p>
-
+					</li>
+					<li>
+						<img src="https://lorempixel.com/580/250/nature/3">
+						<!-- random image -->
+						<div class="caption right-align">
+							<h3>Right Aligned Caption</h3>
+							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
 						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<!-- <a href="https://d-molloy.github.io/Group-Project-1/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Page</a> -->
-							<a href="https://github.com/D-Molloy/Group-Project-1" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
+					</li>
+					<li>
+						<img src="https://lorempixel.com/580/250/nature/3">
+						<!-- random image -->
+						<div class="caption center-align">
+							<h3>This is our big Tagline!</h3>
+							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
 						</div>
-					</div>
-				</div>
-				<!-- Fandemonium end -->
-				<!-- FriendFinder Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">FriendFinder</h6>
-					<img class="hw-screen responsive-img" alt="FriendFinder Project Screenshot" src="images/hw-friendfinder.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal12">View</a>
-					<!-- Modal Structure -->
-					<div id="modal12" class="modal">
-						<div class="modal-content">
-							<h4>FriendFinder</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/materialize1.png" alt="Materialize Tag"> Materialize
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/jquery.png" alt="jQuery Tag"> jQuery
-							</div>
-							<div class="chip">
-								<img src="images/coding/node.png" alt="Node.js Tag"> Node.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/express.png" alt="Express.js Tag"> Express.js
-							</div>
-							<div class="chip">
-								Responsive Design
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Create a full-stack site (utilizing Express to handle routing) that will take in results from a
-								users survey, then compare the user's answers with those saved in the server. The app will then display the name
-								and picture of the user with the best overall match. The site needs to be deployted via Heroku</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>For my first full-stack project, I wanted to go all out and create a complete site that represented
-								the culmination of my learning thus far. I truly enjoyed creating the site and showcasing my creative muscle both
-								in the design of the layout and user experience, and also in the structure of my code. Give the site a try by clicking
-								the [View Site] link below.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://floating-chamber-39809.herokuapp.com/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Site</a>
-							<a href="https://github.com/D-Molloy/FriendFinder" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- FriendFinder end -->
-				<!-- IrelandUpdate Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">IrelandUpdate</h6>
-					<img class="hw-screen responsive-img" alt="IrelandUpdate Project Screenshot" src="images/hw-ireland.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal14">View</a>
-					<!-- Modal Structure -->
-					<div id="modal14" class="modal">
-						<div class="modal-content ireland-update">
-							<h4>IrelandUpdate</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/materialize1.png" alt="Materialize Tag"> Materialize
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/jquery.png" alt="jQuery Tag"> jQuery
-							</div>
-							<div class="chip">
-								<img src="images/coding/node.png" alt="Node.js Tag"> Node.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/express.png" alt="Express.js Tag"> Express.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/handlebars.png" alt="Handlebars.js Tag"> Handlebars.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/mongodb.png" alt="MongoDB Tag"> MongoDB
-							</div>
-							<div class="chip">
-								axios
-							</div>
-							<div class="chip">
-								cheerio
-							</div>
-							<div class="chip">
-								mongoose
-							</div>
-							<div class="chip">
-								Responsive Design
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Create a full-stack site that scrapes news articles from a news outlet, store the data in a MongoDB,
-								then populate the information on the front end of the site.</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>How useful is a aggregator that only scrapes info from one site? Why scrape one news site when you
-								can scrape four?! Inspired by my Irish immigrant parents, I decided to make an app that they could use daily as a
-								way of saying thanks for being so incredible.</p>
-							<p>The app uses Handlebars for templating via the Express server. When the user clicks on the "Get the News!" button,
-								a GET request is made to the '/scrape' route. Axios GET requests are then made to the specified sites, cheerio is
-								used to scrape the article data, and a newly created onbject is inserted into the MongoDB collection. The articles
-								are then retrieved from the DB, and jQuery is used to populate the collapsing table.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://fierce-journey-88737.herokuapp.com/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Page</a>
-							<a href="https://github.com/D-Molloy/scraper" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- IrelandUpdate End -->
-
-				<!-- Burger Start -->
-				<div class="hw-panel z-depth-1 hoverable" href="#modal13">
-					<h6 class="hw-panel-text">Eat-da-burger</h6>
-					<img class="hw-screen responsive-img" alt="Eat-da-burger Project Screenshot" src="images/hw-burger.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal13">View</a>
-					<!-- Modal Structure -->
-					<div id="modal13" class="modal">
-						<div class="modal-content">
-							<h4>Eat-da-burger</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/jquery.png" alt="jQuery Tag"> jQuery
-							</div>
-							<div class="chip">
-								<img src="images/coding/node.png" alt="Node.js Tag"> Node.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/express.png" alt="Express.js Tag"> Express.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/mysql.png" alt="mysql Tag"> MySQL
-							</div>
-							<div class="chip">
-								<img src="images/coding/handlebars.png" alt="Handlebars.js Tag"> Handlebars.js
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Create a full-stack site that allows users to 'Eat', 'Make', and 'Create' burgers. The site utilizes
-								Node.js and Express.js, along with a MySQL database that store the burger data. Handlebars.js is used to template
-								the HTML pages. The page is deployed via Heroku.</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>Although this page looks relatively simple (but cute and fun!), it's packed with all the technologies
-								I've learned up to this point in the course. Please use the links below to check it out.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://secure-inlet-31364.herokuapp.com/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Page</a>
-							<a href="https://github.com/D-Molloy/burger" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- Eat-da-burger End -->
-
-				<!-- Bamazon Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">Bamazon</h6>
-					<img class="hw-screen responsive-img" alt="Bamazon Project Screenshot" src="images/hw-bamazon.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal11">View</a>
-					<!-- Modal Structure -->
-					<div id="modal11" class="modal">
-						<div class="modal-content">
-							<h4>Bamazon</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JavaScript Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/node.png" alt="Node.js Tag"> Node.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/mysql.png" alt="MySQL Tag"> MySQL
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Create an Amazon-like CLI storefront that stores inventory in a MySQL database, and has portals
-								for both customers and managers.</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>The customer portal (bamazonCustomer.js) allows customers to view items available for sale, choose
-								the item and quanitiy they want to purchase, updates the database accordingly, and presents an order summary to the
-								user. The manager portal (bamazonManager.js) allows manager to view all and low inventory items, along with functionality
-								that allows them to add additional inventory and all new items to the DB. A demo of the CLI storfront in action can
-								be viewed by clicking the [VIEW DEMO] link below.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://www.youtube.com/watch?v=8vHI236OxNo" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Demo</a>
-							<a href="https://github.com/D-Molloy/Flashcard-Generator" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- Bamazon end -->
-
-				<!-- LIRI Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">LIRI</h6>
-					<img class="hw-screen responsive-img" alt="LIRI Project Screenshot" src="images/hw-liri.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal9">View</a>
-					<!-- Modal Structure -->
-					<div id="modal9" class="modal">
-						<div class="modal-content">
-							<h4>LIRI</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JavaScript Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/node.png" alt="Node.js Tag"> Node.js
-							</div>
-							<div class="chip">
-								RESTful APIs
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Create a command line node app using Node.js and npm packages. The app is called LIRI (Language
-								Interpretation and Recognition Interface...a take on Apple's SIRI) the takes in parameters from the command line
-								and outputs specific data.</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>This app uses Node.js and various NPM packages to make calls to the Spotify, Twitter, and OMDB APIs
-								to return data on items specified in the command line. The app can be cloned from the repo link below, along with
-								further instructions on how to use the app.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://github.com/D-Molloy/liri-node-app" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- LIRI end -->
-
-				<!-- Train-Link Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">Train-Link</h6>
-					<img class="hw-screen responsive-img" alt="Firebase Project Screenshot" src="images/hw-train.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal7">View</a>
-					<!-- Modal Structure -->
-					<div id="modal7" class="modal">
-						<div class="modal-content">
-							<h4>Train Scheduler</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/bootstrap.png" alt="Bootstrap Tag"> Bootstrap
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/jquery.png" alt="jQuery Tag"> jQuery
-							</div>
-							<div class="chip">
-								Moment.js
-							</div>
-							<div class="chip">
-								<img src="images/coding/firebase.png" alt="Firebase Tag"> Firebase
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Create a train schedule application that incorporates Firebase to host arrival and departure data.
-								The app retrieves and manipulates this information with the Moment.js library. This website will provides up-to-date
-								information about various trains, namely their arrival times and how many minutes remain until they arrive at the
-								station.
-							</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>The completed site can be viewed by clicking the [VIEW PAGE] link below.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://d-molloy.github.io/train-scheduler/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Page</a>
-							<a href="https://github.com/D-Molloy/train-scheduler" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- Train-Link End -->
-				<!-- Politi-GIF Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">Politi-GIF</h6>
-					<img class="hw-screen responsive-img" alt="Giphy API Project Screenshot" src="images/hw-giphy.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal6">View</a>
-					<!-- Modal Structure -->
-					<div id="modal6" class="modal">
-						<div class="modal-content">
-							<h4>Politi-GIF</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/jquery.png" alt="jQuery Tag"> jQuery
-							</div>
-							<div class="chip">
-								APIs/AJAX
-							</div>
-							<div class="chip">
-								Responsive Design
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Using the Giphy API, create a dynamic site that makes an AJAX call to the Giphy API and returns
-								an JSON object with URLs for the 10 most popular GIFs related to the submitted query. Users can submit their own
-								queries, or they can select from an array of saved search terms (I chose politicians). Initially, screenshots of
-								the GIFs are displayed. When clicked on the URL is changed to the GIF URL dynamically.</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>Along with completing the homework, I also include CSS media queries to ensure the site looked and
-								functioned well on mobile devices. The completed site can be viewed by clicking the [VIEW PAGE] link below.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://d-molloy.github.io/giphy-search/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Page</a>
-							<a href="https://github.com/D-Molloy/giphy-search" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- Politi-GIF  End -->
-				<!-- Trivia Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">NFL Trivia</h6>
-					<img class="hw-screen responsive-img" alt="Trivia Project Screenshot" src="images/hw-trivia.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal5">View</a>
-					<!-- Modal Structure -->
-					<div id="modal5" class="modal">
-						<div class="modal-content">
-							<h4>NFL Trivia</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/jquery.png" alt="jQuery Tag"> jQuery
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Create a trivia game using JavaScript logic and jQuery to manipulate HTML. The Basic assignment
-								had all the questions on one static page, while the advanced page was dynamic; only showing one question at a time,
-								informing the user if they got a question right/wrong, and displaying a timer countdown for each question. New knowledge
-								implemented includes objects, and timer methods (setInterval, clearInterval, setTimeout).</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span>I did the advanced homework and created and NFL-themed trivia game. I'm particularly proud of the
-								way the timer is styled :) The completed site can be viewed by clicking the [VIEW PAGE] link below.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://d-molloy.github.io/TriviaGame/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Page</a>
-							<a href="https://github.com/D-Molloy/TriviaGame" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- Trivia End -->
-				<!-- RPG Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">Game of Thrones RPG</h6>
-					<img class="hw-screen responsive-img" alt="Game of Thrones Project Screenshot" src="images/hw-rpg.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal4">View</a>
-					<!-- Modal Structure -->
-					<div id="modal4" class="modal">
-						<div class="modal-content">
-							<h4>Game of Thrones RPG</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="chip">
-								<img src="images/coding/jquery.png" alt="jQuery Tag"> jQuery
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>Create an interactive game where the contents of the page are dynamically updated using jQuery.
-								The basic assignment was to create a simple number guessing game, while the advanced homework was an 'RPG' where
-								characters fought against each other. Each character had to be able to beat all the other charcters based on the
-								order of the opponent chosen.</p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span> With "Game of Thrones" season 7 on the horizon, I thought it would be the perfect setting for the
-								advanced homework. My goal (as with all my work) was to create an experience that engaged the user and kept them
-								exploring the page, while learning and implementing everything I could in regards to HTML/CSS/JS and the newly learned
-								jQuery. The completed site can be viewed by clicking the [VIEW PAGE] link below.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://d-molloy.github.io/week-4-game/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Page</a>
-							<a href="https://github.com/D-Molloy/week-4-game" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- RPG End -->
-				<!-- Hangman Start -->
-				<div class="hw-panel z-depth-1 hoverable">
-					<h6 class="hw-panel-text">Star Wars Hangman</h6>
-					<img class="hw-screen responsive-img" alt="Star Wars Project Screenshot" src="images/hw-hang.PNG">
-
-					<!-- Modal Trigger -->
-					<a class="waves-effect waves-light btn modal-trigger modal-btn" href="#modal3">View</a>
-					<!-- Modal Structure -->
-					<div id="modal3" class="modal">
-						<div class="modal-content">
-							<h4>Star Wars Hangman</h4>
-							<div class="divider"></div>
-							<div class="chip">
-								<img src="images/coding/html.png" alt="HTML Tag"> HTML
-							</div>
-							<div class="chip">
-								<img src="images/coding/css.png" alt="CSS Tag"> CSS
-							</div>
-							<div class="chip">
-								<img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
-							</div>
-							<div class="divider"></div>
-							<p class="modal-obj">
-								<span class="title-obj">Objective: </span>The first major assignment at the Coding Bootcamp @ UNC-Chapel Hill tasked us with either creating
-								a basic 'Psychic' game (trying to guess a random letter chosen by the app) or I could choose to do the more advanced
-								Hangman game. </p>
-							<p class="modal-result">
-								<span class="title-result">Result: </span> I chose the advanced homework with the goal of a creating a game that would engage the user and keep
-								them on the page. The completed site can be viewed by clicking the [VIEW PAGE] link below.</p>
-						</div>
-						<div class="modal-footer">
-							<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Back</a>
-							<a href="https://d-molloy.github.io/Hangman-Game/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Page</a>
-							<a href="https://github.com/D-Molloy/Hangman-Game" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">View Repo</a>
-						</div>
-					</div>
-				</div>
-				<!-- Hangman End -->
+					</li>
+				</ul>
 			</div>
-		</div>
-		<!-- End project panel -->
-		<!-- Start Tech panel -->
-		<div class="row container">
-			<h4 class="header">Technologies</h4>
-			<div class="divider div-line"></div>
-			<div class="tech-div">
-				<img class="tech-img responsive-img" alt="HTML5 logo" src="images/coding/html.png">
-				<img class="tech-img responsive-img" alt="CSS3 logo" src="images/coding/css.png">
-				<img class="tech-img responsive-img" alt="Sass logo" src="images/coding/sass.png">
-				<img class="tech-img responsive-img" alt="Bootstrap logo" src="images/coding/bootstrap.png">
-				<img class="tech-img responsive-img" alt="Materialize logo" src="images/coding/materialize1.png">
-				<img class="tech-img responsive-img" alt="Javascript logo" src="images/coding/javascript.png">
-				<img class="tech-img responsive-img" alt="JQuery logo" src="images/coding/jquery.png">
-				<img class="tech-img responsive-img" alt="Node.js logo" src="images/coding/node.png">
-				<img class="tech-img responsive-img" alt="Express.js logo" src="images/coding/express.png">
-				<img class="tech-img responsive-img" alt="Sequelize logo" src="images/coding/sequelize.png">
-				<img class="tech-img responsive-img" alt="React logo" src="images/coding/react1.png">
-				<img class="tech-img responsive-img" alt="Handlebars.js logo" src="images/coding/handlebars.png">
-				<img class="tech-img responsive-img" alt="Firebase logo" src="images/coding/firebase.png">
-				<img class="tech-img responsive-img" alt="MySQL logo" src="images/coding/mysql.png">
-				<img class="tech-img responsive-img" alt="MongoDB logo" src="images/coding/mongodb.png">
-				<img class="tech-img responsive-img" alt="Git logo" src="images/coding/git.png">
-				<img class="tech-img responsive-img" alt="GitHub logo" src="images/coding/github.png">
-				<img class="tech-img responsive-img" alt="Heroku logo" src="images/coding/heroku.png">
-				<img class="tech-img responsive-img" alt="Google Analytics logo" src="images/coding/analytics.png">
-				<img class="tech-img responsive-img" alt="Photoshop logo" src="images/coding/photoshop.png">
+			<div class="row container project ">
+				<h4 class="header">Recent Projects</h4>
+				<div class="divider div-line"></div>
+
 			</div>
+			<!-- End project panel -->
+			<!-- Start Tech panel -->
+			<div class="row container">
+				<h4 class="header">Technologies</h4>
+				<div class="divider div-line"></div>
+				<div class="tech-div">
+					<img class="tech-img responsive-img" alt="HTML5 logo" src="images/coding/html.png">
+					<img class="tech-img responsive-img" alt="CSS3 logo" src="images/coding/css.png">
+					<img class="tech-img responsive-img" alt="Sass logo" src="images/coding/sass.png">
+					<img class="tech-img responsive-img" alt="Bootstrap logo" src="images/coding/bootstrap.png">
+					<img class="tech-img responsive-img" alt="Materialize logo" src="images/coding/materialize1.png">
+					<img class="tech-img responsive-img" alt="Javascript logo" src="images/coding/javascript.png">
+					<img class="tech-img responsive-img" alt="JQuery logo" src="images/coding/jquery.png">
+					<img class="tech-img responsive-img" alt="Node.js logo" src="images/coding/node.png">
+					<img class="tech-img responsive-img" alt="Express.js logo" src="images/coding/express.png">
+					<img class="tech-img responsive-img" alt="Sequelize logo" src="images/coding/sequelize.png">
+					<img class="tech-img responsive-img" alt="React logo" src="images/coding/react1.png">
+					<img class="tech-img responsive-img" alt="Handlebars.js logo" src="images/coding/handlebars.png">
+					<img class="tech-img responsive-img" alt="Firebase logo" src="images/coding/firebase.png">
+					<img class="tech-img responsive-img" alt="MySQL logo" src="images/coding/mysql.png">
+					<img class="tech-img responsive-img" alt="MongoDB logo" src="images/coding/mongodb.png">
+					<img class="tech-img responsive-img" alt="Git logo" src="images/coding/git.png">
+					<img class="tech-img responsive-img" alt="GitHub logo" src="images/coding/github.png">
+					<img class="tech-img responsive-img" alt="Heroku logo" src="images/coding/heroku.png">
+					<img class="tech-img responsive-img" alt="Google Analytics logo" src="images/coding/analytics.png">
+					<img class="tech-img responsive-img" alt="Photoshop logo" src="images/coding/photoshop.png">
+				</div>
+			</div>
+			<!-- End Tech panel -->
 		</div>
-		<!-- End Tech panel -->
 	</div>
 	<div class="parallax-container">
 		<div class="parallax">
@@ -762,7 +193,7 @@
 		</div>
 	</div>
 	<!-- footer -->
-	<footer class="page-footer blue">
+	<footer class="page-footer" id="navigation-bottom">
 		<div class="container center" id="copyright">
 			© 2018 Denis Molloy
 		</div>
