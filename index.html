@@ -31,11 +31,9 @@
 	<nav>
 		<div class="nav-wrapper" id="navigation-top">
 			<ul id="nav-mobile" class="right hide-on-med-and-down ">
+
 				<li>
-					<a href="https://www.linkedin.com/in/denismolloy/" target="_blank">Portfolio</a>
-				</li>
-				<li>
-					<a href="https://www.linkedin.com/in/denismolloy/" target="_blank">About</a>
+					<a href="about.html">About</a>
 				</li>
 				<li>
 					<!-- Dropdown Trigger -->
@@ -82,6 +80,12 @@
 
 			<ul class="side-nav" id="mobile-demo">
 				<li>
+					<a href="about.html" class="nav-header">
+						About
+					</a>
+				</li>
+				<li class="divider"></li>
+				<li>
 					<a class="left-align" href="tel:206-516-9335">Phone:
 						<span cleass="sub-text">206.516.9335</span>
 					</a>
@@ -105,6 +109,8 @@
 		</div>
 	</nav>
 	<!-- end navbar -->
+
+
 	<!-- start parallax -->
 	<div class="parallax-container">
 		<div class="parallax">
@@ -113,79 +119,105 @@
 	</div>
 	<div class="section z-depth-5" id="main-body">
 		<div class="row container">
-			<h4 class="header">Recent projects</h4>
+			<h4 class="header">Recent Projects</h4>
+			<em class="header-sub">New projects added regularly...</em>
 			<div class="divider"></div>
-			<div class="slider">
-				<ul class="slides">
-					<li>
-						<img src="https://lorempixel.com/580/250/nature/1">
-						<!-- random image -->
-						<div class="caption center-align">
-							<h3>This is our big Tagline!</h3>
-							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			<div id="project-container">
+
+				<div class="proj-card z-depth-3 ">
+					<a href="#" class="prog-link">
+						<div class="img__wrap">
+							<img src="images/denny-do-small.png" alt="denny-do screenshot" class="img__img responsive-img">
+							<div class="proj-caption img__description_layer">
+								<h4 class="proj-caption-title img__description__title">Denny-Do List</h4>
+								<p class="proj-caption-content img__description__info">Task-management app built using Vue.</p>
+							</div>
 						</div>
-					</li>
-					<li>
-						<img src="https://lorempixel.com/580/250/nature/2">
-						<!-- random image -->
-						<div class="caption left-align">
-							<h3>Left Aligned Caption</h3>
-							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</a>
+				</div>
+
+				<div class="proj-card z-depth-3 ">
+					<a href="#" class="prog-link">
+						<div class="img__wrap">
+							<img src="images/crewify-small.png" alt="crewify screenshot" class="img__img responsive-img">
+							<div class="proj-caption img__description_layer">
+								<h4 class="proj-caption-title img__description__title">Crewify</h4>
+								<p class="proj-caption-content img__description__info">Job management app built in React</p>
+							</div>
 						</div>
-					</li>
-					<li>
-						<img src="https://lorempixel.com/580/250/nature/3">
-						<!-- random image -->
-						<div class="caption right-align">
-							<h3>Right Aligned Caption</h3>
-							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</a>
+				</div>
+
+				<div class="proj-card z-depth-3 ">
+					<a href="#" class="prog-link">
+						<div class="img__wrap">
+							<img src="images/friendfinder-small.png" alt="crewify screenshot" class="img__img responsive-img">
+							<div class="proj-caption img__description_layer">
+								<h4 class="proj-caption-title img__description__title">FriendFinder</h4>
+								<p class="proj-caption-content img__description__info">Find your new best friend!</p>
+							</div>
 						</div>
-					</li>
-					<li>
-						<img src="https://lorempixel.com/580/250/nature/3">
-						<!-- random image -->
-						<div class="caption center-align">
-							<h3>This is our big Tagline!</h3>
-							<h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+					</a>
+				</div>
+
+				<div class="proj-card z-depth-3 ">
+					<a href="#" class="prog-link">
+						<div class="img__wrap">
+							<img src="images/ireland-small.png" alt="Ireland Update screenshot" class="img__img responsive-img">
+							<div class="proj-caption img__description_layer">
+								<h4 class="proj-caption-title img__description__title">IrelandUpdate</h4>
+								<p class="proj-caption-content img__description__info">Irish news aggregator.</p>
+							</div>
 						</div>
-					</li>
-				</ul>
-			</div>
-			<div class="row container project ">
-				<h4 class="header">Recent Projects</h4>
-				<div class="divider div-line"></div>
+					</a>
+				</div>
+
+				<div class="proj-card z-depth-3 ">
+					<a href="#" class="prog-link">
+						<div class="img__wrap">
+							<img src="images/castle.jpg" alt="arcade screenshot" class="img__img responsive-img">
+							<div class="proj-caption img__description_layer">
+								<h4 class="proj-caption-title img__description__title">Arcade</h4>
+								<p class="proj-caption-content img__description__info">Grab a fist-full of quarters and take a break...</p>
+							</div>
+						</div>
+					</a>
+				</div>
+
 
 			</div>
-			<!-- End project panel -->
-			<!-- Start Tech panel -->
-			<div class="row container">
-				<h4 class="header">Technologies</h4>
-				<div class="divider div-line"></div>
-				<div class="tech-div">
-					<img class="tech-img responsive-img" alt="HTML5 logo" src="images/coding/html.png">
-					<img class="tech-img responsive-img" alt="CSS3 logo" src="images/coding/css.png">
-					<img class="tech-img responsive-img" alt="Sass logo" src="images/coding/sass.png">
-					<img class="tech-img responsive-img" alt="Bootstrap logo" src="images/coding/bootstrap.png">
-					<img class="tech-img responsive-img" alt="Materialize logo" src="images/coding/materialize1.png">
-					<img class="tech-img responsive-img" alt="Javascript logo" src="images/coding/javascript.png">
-					<img class="tech-img responsive-img" alt="JQuery logo" src="images/coding/jquery.png">
-					<img class="tech-img responsive-img" alt="Node.js logo" src="images/coding/node.png">
-					<img class="tech-img responsive-img" alt="Express.js logo" src="images/coding/express.png">
-					<img class="tech-img responsive-img" alt="Sequelize logo" src="images/coding/sequelize.png">
-					<img class="tech-img responsive-img" alt="React logo" src="images/coding/react1.png">
-					<img class="tech-img responsive-img" alt="Handlebars.js logo" src="images/coding/handlebars.png">
-					<img class="tech-img responsive-img" alt="Firebase logo" src="images/coding/firebase.png">
-					<img class="tech-img responsive-img" alt="MySQL logo" src="images/coding/mysql.png">
-					<img class="tech-img responsive-img" alt="MongoDB logo" src="images/coding/mongodb.png">
-					<img class="tech-img responsive-img" alt="Git logo" src="images/coding/git.png">
-					<img class="tech-img responsive-img" alt="GitHub logo" src="images/coding/github.png">
-					<img class="tech-img responsive-img" alt="Heroku logo" src="images/coding/heroku.png">
-					<img class="tech-img responsive-img" alt="Google Analytics logo" src="images/coding/analytics.png">
-					<img class="tech-img responsive-img" alt="Photoshop logo" src="images/coding/photoshop.png">
-				</div>
-			</div>
-			<!-- End Tech panel -->
 		</div>
+		<!-- End project panel -->
+		<!-- Start Tech panel -->
+		<div class="row container">
+			<h4 class="header">Technologies</h4>
+			<em class="header-sub">Including, but not limited to...</em>
+			<div class="divider div-line"></div>
+			<div class="tech-div">
+				<img class="tech-img responsive-img" alt="HTML5 logo" src="images/coding/html.png">
+				<img class="tech-img responsive-img" alt="CSS3 logo" src="images/coding/css.png">
+				<img class="tech-img responsive-img" alt="Sass logo" src="images/coding/sass.png">
+				<img class="tech-img responsive-img" alt="Bootstrap logo" src="images/coding/bootstrap.png">
+				<img class="tech-img responsive-img" alt="Materialize logo" src="images/coding/materialize1.png">
+				<img class="tech-img responsive-img" alt="Javascript logo" src="images/coding/javascript.png">
+				<img class="tech-img responsive-img" alt="JQuery logo" src="images/coding/jquery.png">
+				<img class="tech-img responsive-img" alt="Node.js logo" src="images/coding/node.png">
+				<img class="tech-img responsive-img" alt="npm logo" src="images/coding/npm.png">
+				<img class="tech-img responsive-img" alt="Express.js logo" src="images/coding/express.png">
+				<img class="tech-img responsive-img" alt="React logo" src="images/coding/react1.png">
+				<img class="tech-img responsive-img" alt="Vue logo" src="images/coding/vue.png">
+				<img class="tech-img responsive-img" alt="Handlebars.js logo" src="images/coding/handlebars.png">
+				<img class="tech-img responsive-img" alt="Firebase logo" src="images/coding/firebase.png">
+				<img class="tech-img responsive-img" alt="MySQL logo" src="images/coding/mysql.png">
+				<img class="tech-img responsive-img" alt="MongoDB logo" src="images/coding/mongodb.png">
+				<img class="tech-img responsive-img" alt="Git logo" src="images/coding/git.png">
+				<img class="tech-img responsive-img" alt="GitHub logo" src="images/coding/github.png">
+				<img class="tech-img responsive-img" alt="Heroku logo" src="images/coding/heroku.png">
+				<img class="tech-img responsive-img" alt="Photoshop logo" src="images/coding/photoshop.png">
+			</div>
+		</div>
+		<!-- End Tech panel -->
+
 	</div>
 	<div class="parallax-container">
 		<div class="parallax">
