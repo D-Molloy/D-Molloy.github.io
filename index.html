@@ -3,7 +3,7 @@
 
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81001809-2"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-81001809-2"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -13,7 +13,7 @@
 		gtag('js', new Date());
 
 		gtag('config', 'UA-81001809-2');
-	</script> -->
+	</script>
 	<title>Denis Molloy | Full-Stack Developer</title>
 	<meta name="description" content="Denis Molloy - a Full Stack Web Developer who loves creating unique and engaging user experiences.  Passionate about learning, expanding my craft, and being a part of something greater than myself.">
 	<!-- Favicon -->
@@ -42,9 +42,9 @@
 				</li>
 			</ul>
 
-			<a href="#" id="top-page" class="brand-logo center">
+			<!-- <a href="#" id="top-page" class="brand-logo center">
 				<span class="title-name">Denis Molloy</span>
-			</a>
+			</a> -->
 			<a href="#" data-activates="mobile-demo" class="button-collapse">
 				<i class="material-icons">menu</i>
 			</a>
@@ -110,25 +110,35 @@
 	</nav>
 	<!-- end navbar -->
 
-
-	<!-- start parallax -->
-	<div class="parallax-container">
-		<div class="parallax">
-			<img src="images/bg-katwalk.png">
-		</div>
-	</div>
 	<div class="section z-depth-5" id="main-body">
+		<div class="title-wrapper">
+			<p id="title-main">Denis Molloy</p>
+			<p id="title-sub">Fullstack Developer</p>
+			<em id="title-tag">Coding is the task. Learning is the reward.</em>
+		</div>
 		<div class="row container">
+
 			<h4 class="header">Recent Projects</h4>
 			<em class="header-sub">New projects added regularly...</em>
-			<div class="divider"></div>
+
 			<div id="project-container">
+				<div class="proj-card z-depth-3 ">
+					<a href="crewify.html" class="prog-link">
+						<div class="img__wrap">
+							<img src="images/crewify-small.png" alt="crewify screenshot" class="img__img responsive-img">
+							<div class="img__description_layer">
+								<h4 class="img__description__title">Crewify</h4>
+								<p class="img__description__info">Job management app built in React</p>
+							</div>
+						</div>
+					</a>
+				</div>
 
 				<div class="proj-card z-depth-3 ">
-					<a href="#" class="prog-link">
+					<a href="denny-do.html" class="prog-link">
 						<div class="img__wrap">
 							<img src="images/denny-do-small.png" alt="denny-do screenshot" class="img__img responsive-img">
-							<div class="proj-caption img__description_layer">
+							<div class="img__description_layer">
 								<h4 class="proj-caption-title img__description__title">Denny-Do List</h4>
 								<p class="proj-caption-content img__description__info">Task-management app built using Vue.</p>
 							</div>
@@ -137,48 +147,36 @@
 				</div>
 
 				<div class="proj-card z-depth-3 ">
-					<a href="#" class="prog-link">
-						<div class="img__wrap">
-							<img src="images/crewify-small.png" alt="crewify screenshot" class="img__img responsive-img">
-							<div class="proj-caption img__description_layer">
-								<h4 class="proj-caption-title img__description__title">Crewify</h4>
-								<p class="proj-caption-content img__description__info">Job management app built in React</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="proj-card z-depth-3 ">
-					<a href="#" class="prog-link">
-						<div class="img__wrap">
-							<img src="images/friendfinder-small.png" alt="crewify screenshot" class="img__img responsive-img">
-							<div class="proj-caption img__description_layer">
-								<h4 class="proj-caption-title img__description__title">FriendFinder</h4>
-								<p class="proj-caption-content img__description__info">Find your new best friend!</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="proj-card z-depth-3 ">
-					<a href="#" class="prog-link">
+					<a href="irelandupdate.html" class="prog-link">
 						<div class="img__wrap">
 							<img src="images/ireland-small.png" alt="Ireland Update screenshot" class="img__img responsive-img">
-							<div class="proj-caption img__description_layer">
-								<h4 class="proj-caption-title img__description__title">IrelandUpdate</h4>
-								<p class="proj-caption-content img__description__info">Irish news aggregator.</p>
+							<div class="img__description_layer">
+								<h4 class="img__description__title">IrelandUpdate</h4>
+								<p class="img__description__info">Irish news aggregator.</p>
 							</div>
 						</div>
 					</a>
 				</div>
+
+				<div class="proj-card z-depth-3 ">
+						<a href="friendfinder.html" class="prog-link">
+							<div class="img__wrap">
+								<img src="images/friendfinder-small.png" alt="friendfinder screenshot" class="img__img responsive-img">
+								<div class="img__description_layer">
+									<h4 class="img__description__title">FriendFinder</h4>
+									<p class="img__description__info">Find your new best friend!</p>
+								</div>
+							</div>
+						</a>
+					</div>
 
 				<div class="proj-card z-depth-3 ">
 					<a href="#" class="prog-link">
 						<div class="img__wrap">
 							<img src="images/castle.jpg" alt="arcade screenshot" class="img__img responsive-img">
-							<div class="proj-caption img__description_layer">
-								<h4 class="proj-caption-title img__description__title">Arcade</h4>
-								<p class="proj-caption-content img__description__info">Grab a fist-full of quarters and take a break...</p>
+							<div class="img__description_layer">
+								<h4 class="img__description__title">Arcade</h4>
+								<p class="img__description__info">Grab a fist-full of quarters and take a break...</p>
 							</div>
 						</div>
 					</a>
@@ -188,11 +186,13 @@
 			</div>
 		</div>
 		<!-- End project panel -->
+
 		<!-- Start Tech panel -->
 		<div class="row container">
+
 			<h4 class="header">Technologies</h4>
 			<em class="header-sub">Including, but not limited to...</em>
-			<div class="divider div-line"></div>
+
 			<div class="tech-div">
 				<img class="tech-img responsive-img" alt="HTML5 logo" src="images/coding/html.png">
 				<img class="tech-img responsive-img" alt="CSS3 logo" src="images/coding/css.png">
@@ -219,12 +219,7 @@
 		<!-- End Tech panel -->
 
 	</div>
-	<div class="parallax-container">
-		<div class="parallax">
-			<img src="images/bg-tongue.png">
-		</div>
-	</div>
-	<!-- footer -->
+
 	<footer class="page-footer" id="navigation-bottom">
 		<div class="container center" id="copyright">
 			© 2018 Denis Molloy

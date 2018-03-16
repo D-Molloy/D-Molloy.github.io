@@ -14,7 +14,7 @@
 
 		gtag('config', 'UA-81001809-2');
 	</script>
-    <title>Denis Molloy | Full-Stack Developer</title>
+    <title>Denis Molloy | FriendFinder</title>
     <meta name="description" content="Denis Molloy - a Full Stack Web Developer who loves creating unique and engaging user experiences.  Passionate about learning, expanding my craft, and being a part of something greater than myself.">
     <!-- Favicon -->
     <link rel="shortcut icon" type="img/<png>" href="images/fav.png">
@@ -33,6 +33,9 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down ">
                 <li>
                     <a href="index.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
                 </li>
                 <li>
                     <!-- Dropdown Trigger -->
@@ -73,11 +76,15 @@
                 </li>
             </ul>
 
+
             <ul class="side-nav" id="mobile-demo">
                 <li>
                     <a href="index.html" class="nav-header">
                         Portfolio
                     </a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
                 </li>
                 <li class="divider"></li>
                 <li>
@@ -105,36 +112,62 @@
     </nav>
     <!-- end navbar -->
 
-    <!-- start parallax -->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="images/bg-katwalk.png">
-        </div>
-    </div>
-    <div class="section">
+    <div class="section" id="main-body">
         <div class="row container">
-            <h4 class="header">About Me</h4>
+            <h4 class="proj-header">FriendFinder</h4>
             <div class="divider"></div>
-            <div id="about-container">
-                <img src="images/profile.png" alt="Denis profile pic" class="responsive-img" id="profile-pic">
-                <div id="about-text">
-                    <p class="about-text-head">Certified Full-Stack Web Developer with a driving passion for software development.</p>
-                    <p class="about-text-main">After nearly a decade in Project Managment, Product Development, and Quality Assurance, I decided to change careers due to wanting a more fulfilling, challenging, and dynamic work life.  Development has given me just that.  It's the most rewarding work I've ever done, and I would love to bring my passion and energy to a new role.  Please check out my work and get in touch if you like what you see!</p>
-                    
-                    <div id="about-text-icons">
-                        <a href="mailto:denis.molloy@gmail.com" >
-                            <img src="images/email.png" alt="connect via email" class="about-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Email Me!">
-                        </a>
-                        <a href="https://www.linkedin.com/in/denismolloy/" target="_blank">
-                            <img src="images/linkedin-white.png" alt="connect via LinkedIn" class="about-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="LinkedIn Profile">
-                        </a>
-                        <a href="https://github.com/D-Molloy" target="_blank">
-                            <img src="images/github-white.png" alt="connect via github" class="about-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="GitHub Profile">
-                        </a>
-                        <a href="https://twitter.com/Drimbane" target="_blank">
-                            <img src="images/twitter-white.png" alt="connect via twitter" class="about-icon tooltipped" data-position="bottom" data-delay="50" data-tooltip="Twitter Page">                        </a>
+            <div id="proj-page-container">
+
+                <div class="proj-page-chip-div">
+                    <div class="chip">
+                        <img src="images/coding/html.png" alt="HTML Tag"> HTML
+                    </div>
+                    <div class="chip">
+                        <img src="images/coding/css.png" alt="CSS Tag"> CSS
+                    </div>
+                    <div class="chip">
+                        <img src="images/coding/materialize1.png" alt="Materialize Tag"> Materialize
+                    </div>
+                    <div class="chip">
+                        <img src="images/coding/javascript.png" alt="JS Tag"> JavaScript
+                    </div>
+                    <div class="chip">
+                        <img src="images/coding/jquery.png" alt="jQuery Tag"> jQuery
+                    </div>
+                    <div class="chip">
+                        <img src="images/coding/node.png" alt="Node.js Tag"> Node.js
+                    </div>
+                    <div class="chip">
+                        <img src="images/coding/npm.png" alt="Node Package Management Tag"> NPM
+                    </div>
+                    <div class="chip">
+                        <img src="images/coding/express.png" alt="Express.js Tag"> Express.js
+                    </div>
+                    <div class="chip">
+                        Responsive Design
                     </div>
                 </div>
+                <div class="proj-page-info">
+                    <img src="images/friendfinder-small.png" alt="Denny-Do screenshot" class="responsive-img" id="proj-pic">
+                    <div id="proj-text">
+                        <p>For my first full-stack app, I wanted to go all out and create a complete site that represented the culmination of my learning thus far. I loved creating the site and showcasing my creative muscle both in the design of the layout and user experience.  Give it a try!
+                        </p>
+                        <div id="proj-text-icons">
+                            <a href="https://floating-chamber-39809.herokuapp.com/" target="_blank">
+                                <img src="images/open-white.png" alt="Open project in browser" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
+                                    data-tooltip="Open in browser">
+                            </a>
+
+                            <a href="https://github.com/D-Molloy/FriendFinder" target="_blank">
+                                <img src="images/github-white.png" alt="View Github Repo" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
+                                    data-tooltip="View repository">
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
 
 
             </div>
@@ -144,11 +177,7 @@
         <!-- End Tech panel -->
 
     </div>
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="images/bg-tongue.png">
-        </div>
-    </div>
+
     <!-- footer -->
     <footer class="page-footer" id="navigation-bottom">
         <div class="container center" id="copyright">
