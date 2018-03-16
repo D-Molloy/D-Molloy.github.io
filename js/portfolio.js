@@ -1,7 +1,6 @@
 $( document ).ready(function() {
 	$(".button-collapse").sideNav();
 	$('.parallax').parallax();
-	$('.modal').modal();
 	$('.dropdown-button').dropdown({
 		inDuration: 300,
 		outDuration: 225,
@@ -13,5 +12,4 @@ $( document ).ready(function() {
 		stopPropagation: false // Stops event propagation
 	  }
 	);
-	$('.slider').slider();
 });
