@@ -4,16 +4,16 @@
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81001809-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-		gtag('config', 'UA-81001809-2');
-	</script>
+        gtag('config', 'UA-81001809-2');
+    </script>
     <title>Denis Molloy | Ireland Update</title>
     <meta name="description" content="Denis Molloy - a Full Stack Web Developer who loves creating unique and engaging user experiences.  Passionate about learning, expanding my craft, and being a part of something greater than myself.">
     <!-- Favicon -->
@@ -84,6 +84,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="about.html" class="nav-header">
+                        About
+                    </a>
+                </li>
+                <li>
                     <a href="about.html">About</a>
                 </li>
                 <li class="divider"></li>
@@ -117,7 +122,35 @@
             <h4 class="proj-header">IrelandUpdate</h4>
             <div class="divider"></div>
             <div id="proj-page-container">
-                <div class="proj-page-chip-div">
+
+                <div class="proj-page-info">
+                    <img src="images/ireland-small.png" alt="IrelandUpdate screenshot" class="responsive-img" id="proj-pic">
+
+                    <div id="proj-text-icons">
+                        <a href="https://fierce-journey-88737.herokuapp.com/" target="_blank">
+                            <img src="images/open-white.png" alt="Open project in browser" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
+                                data-tooltip="Open in browser">
+                        </a>
+                        <a href="https://github.com/D-Molloy/scraper" target="_blank">
+                            <img src="images/github-white.png" alt="View Github Repo" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
+                                data-tooltip="View repository">
+                        </a>
+                    </div>
+                </div>
+                <div id="proj-text">
+                    <p class="proj-tech">HTML / CSS / Materialize / JavaScript / jQuery / Node / NPM / Express / Handlebars / MongoDB / Responsive Design</p>
+                    <p class="proj-descrip">Inspired by my Irish immigrant parents, I decided to make an app so that they can have a one-stop shop
+                        for all of the newest headlines from their homeland. The full-stack app collects articles from their
+                        favorite news outlets, saves them to a MongoDB. The app uses Handlebars for templating via the Express
+                        server. Axios GET requests are then made to the specified sites, cheerio is used to scrape the article
+                        data, and a newly created object is inserted into the MongoDB collection.The articles are then retrieved
+                        from the DB, and jQuery is used to populate the collapsing table
+                    </p>
+
+                </div>
+            </div>
+            <div class="divider"></div>
+            <!-- <div class="proj-page-chip-div">
                     <div class="chip">
                         <img src="images/coding/html.png" alt="HTML Tag"> HTML
                     </div>
@@ -152,33 +185,12 @@
                         Responsive Design
                     </div>
                 </div>
-                <div class="proj-page-info">
-                    <img src="images/ireland-small.png" alt="IrelandUpdate screenshot" class="responsive-img" id="proj-pic">
-                    <div id="proj-text">
-                        <p>Inspired by my Irish immigrant parents, I decided to make an app so that they can have a one-stop shop for all of the newest headlines from their homeland. The full-stack app collects articles from their favorite news outlets, saves them to a MongoDB. The app uses Handlebars for templating via the Express server. Axios GET requests are then made to the specified sites, cheerio is used to scrape the article data, and a newly created object is inserted into the MongoDB collection. The articles are then retrieved from the DB, and jQuery is used to populate the collapsing table
-                        </p>
-                        <div id="proj-text-icons">
-                            <a href="https://fierce-journey-88737.herokuapp.com/" target="_blank">
-                                <img src="images/open-white.png" alt="Open project in browser" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
-                                    data-tooltip="Open in browser">
-                            </a>
-
-                            <a href="https://github.com/D-Molloy/scraper" target="_blank">
-                                <img src="images/github-white.png" alt="View Github Repo" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
-                                    data-tooltip="View repository">
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="divider"></div>
+            <div class="divider"></div> -->
 
         </div>
-        <!-- End Tech panel -->
-
     </div>
-
+    <!-- End Tech panel -->
     <!-- footer -->
     <footer class="page-footer" id="navigation-bottom">
         <div class="container center" id="copyright">

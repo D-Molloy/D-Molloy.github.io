@@ -4,16 +4,16 @@
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81001809-2"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-		gtag('config', 'UA-81001809-2');
-	</script>
+        gtag('config', 'UA-81001809-2');
+    </script>
     <title>Denis Molloy | FriendFinder</title>
     <meta name="description" content="Denis Molloy - a Full Stack Web Developer who loves creating unique and engaging user experiences.  Passionate about learning, expanding my craft, and being a part of something greater than myself.">
     <!-- Favicon -->
@@ -84,6 +84,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="about.html" class="nav-header">
+                        About
+                    </a>
+                </li>
+                <li>
                     <a href="about.html">About</a>
                 </li>
                 <li class="divider"></li>
@@ -118,7 +123,24 @@
             <div class="divider"></div>
             <div id="proj-page-container">
 
-                <div class="proj-page-chip-div">
+                <div class="proj-page-info">
+                    <img src="images/friendfinder-small.png" alt="Denny-Do screenshot" class="responsive-img" id="proj-pic">
+
+                    <div id="proj-text-icons">
+                        <a href="https://floating-chamber-39809.herokuapp.com/" target="_blank">
+                            <img src="images/open-white.png" alt="Open project in browser" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
+                                data-tooltip="Open in browser">
+                        </a>
+
+                        <a href="https://github.com/D-Molloy/FriendFinder" target="_blank">
+                            <img src="images/github-white.png" alt="View Github Repo" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
+                                data-tooltip="View repository">
+                        </a>
+
+                    </div>
+                </div>
+                <div id="proj-text">
+<!-- <div class="proj-page-chip-div">
                     <div class="chip">
                         <img src="images/coding/html.png" alt="HTML Tag"> HTML
                     </div>
@@ -146,25 +168,12 @@
                     <div class="chip">
                         Responsive Design
                     </div>
-                </div>
-                <div class="proj-page-info">
-                    <img src="images/friendfinder-small.png" alt="Denny-Do screenshot" class="responsive-img" id="proj-pic">
-                    <div id="proj-text">
-                        <p>For my first full-stack app, I wanted to go all out and create a complete site that represented the culmination of my learning thus far. I loved creating the site and showcasing my creative muscle both in the design of the layout and user experience.  Give it a try!
-                        </p>
-                        <div id="proj-text-icons">
-                            <a href="https://floating-chamber-39809.herokuapp.com/" target="_blank">
-                                <img src="images/open-white.png" alt="Open project in browser" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
-                                    data-tooltip="Open in browser">
-                            </a>
-
-                            <a href="https://github.com/D-Molloy/FriendFinder" target="_blank">
-                                <img src="images/github-white.png" alt="View Github Repo" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
-                                    data-tooltip="View repository">
-                            </a>
-
-                        </div>
-                    </div>
+                </div> -->
+                    <p class="proj-tech">HTML / CSS / Materialize / JavaScript / Node / NPM / Express / Responsive Design</p>
+                    <p class="proj-descrip">For my first full-stack app, I wanted to go all out and create a complete site that represented the culmination
+                        of my learning thus far. I loved creating the site and showcasing my creative muscle both in the
+                        design of the layout and user experience. Give it a try!
+                    </p>
 
                 </div>
 
