@@ -312,7 +312,7 @@ img.tech-img.responsive-img {
 #about-text-icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 20px;
@@ -351,6 +351,7 @@ project page
   max-width: 90%;
   min-width: 320px;
   align-self: center;
+  border: 1px solid var(--offwhite);
 }
 
 #proj-text-icons{
@@ -424,7 +425,7 @@ project page
 }
 
 
-@media screen and (max-width: 584px) {
+@media screen and (max-width: 736px) {
   #proj-text-icons{
     margin-top: 20px;
     width: 100%;
