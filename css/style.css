@@ -213,6 +213,7 @@ div.divider {
 
 .img__description__info {
   font-size: 20px;
+  margin: 0 10px;
   transition: .2s;
   transform: translateY(1em);
 }
