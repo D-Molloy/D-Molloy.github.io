@@ -14,7 +14,7 @@
 
         gtag('config', 'UA-81001809-2');
     </script>
-    <title>Denis Molloy | AmbientTube</title>
+    <title>Denis Molloy | Weather Redux</title>
     <meta name="description" content="Denis Molloy - a Full Stack Web Developer who loves creating unique and engaging user experiences.  Passionate about learning, expanding my craft, and being a part of something greater than myself.">
     <!-- Favicon -->
     <link rel="shortcut icon" type="img/<png>" href="images/fav.png">
@@ -117,20 +117,16 @@
 
     <div class="section" id="main-body">
         <div class="row container">
-            <h4 class="proj-header">AmbientTube</h4>
+            <h4 class="proj-header">Weather Redux</h4>
             <div class="divider"></div>
             <div id="proj-page-container">
 
                 <div class="proj-page-info">
-                    <img src="images/ambienttube-small.png" alt="AmbientTube screenshot" class="responsive-img" id="proj-pic">
+                    <img src="images/weather.png" alt="Weather Redux screenshot" class="responsive-img" id="proj-pic" style="max-width: 778px;">
 
                     <div id="proj-text-icons">
-                        <a href="https://d-molloy.github.io/react-youtube-gh/" target="_blank">
-                            <img src="images/open-white.png" alt="Open project in browser" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
-                                data-tooltip="Open in browser">
-                        </a>
-
-                        <a href="https://github.com/D-Molloy/react-youtube-gh" target="_blank">
+        
+                        <a href="https://github.com/D-Molloy/react-redux-weather" target="_blank">
                             <img src="images/github-white.png" alt="View Github Repo" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
                                 data-tooltip="View repository">
                         </a>
@@ -138,8 +134,8 @@
                     </div>
                 </div>
                 <div id="proj-text">
-                    <p class="proj-tech">HTML / CSS / Bootstrap 4 / JavaScript / React / NPM / YouTube Search API / Lodash / Responsive Design</p>
-                    <p class="proj-descrip">My fiance and I are big fans of ambient music, so I built this React app as an easy way to find this peaceful, non-intrusive music that we love.  The app has two Class components (index and SearchBar), which handle getting data from the YouTube search API (via the youtube-api-search npm package), setting the state and passing the props down to the functional components which display the video search result data.  The SearchBar component automatically updates the search as the user types, so I used the .debounce Lodash method to delay the API request until the user stops typing.  I used the gh-pages npm package to deploy the app to github pages.
+                    <p class="proj-tech">HTML / CSS / Bootstrap 4 / JavaScript / React / Redux / NPM / OpenWeatherMap API / Google Maps API</p>
+                    <p class="proj-descrip">I'm a data-driven person and I've always loved data presented in a visually compelling way.  That's why I had such a great time building this React/Redux app. When you search for a city, the fetchWeather action makes an api call to openweathermap.org API via axios and then passes the request promise to the reducer. The redux-promise npm package in the reducer pulls the weather data from the promise and updates the state with the new data. This info is then passed to the WeatherList component and the necessary data is extracted in order to display the map for each city (via the Google Maps API in the google_map.js component) along with the upcoming weather data that is passed down to the chart.js component (charts are generated using the Sparklines npm package). Feel free to clone the repo and try it for yourself!
                     </p>
 
                 </div>
