@@ -125,7 +125,10 @@
                     <img src="images/weather.png" alt="Weather Redux screenshot" class="responsive-img" id="proj-pic">
 
                     <div id="proj-text-icons">
-        
+                        <a href="https://dkm-weather-redux.herokuapp.com/" target="_blank">
+                            <img src="images/open-white.png" alt="Open project in browser" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
+                                data-tooltip="Open in browser">
+                        </a>
                         <a href="https://github.com/D-Molloy/react-redux-weather" target="_blank">
                             <img src="images/github-white.png" alt="View Github Repo" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
                                 data-tooltip="View repository">
@@ -135,7 +138,7 @@
                 </div>
                 <div id="proj-text">
                     <p class="proj-tech">HTML / CSS / Bootstrap 4 / JavaScript / React / Redux / NPM / OpenWeatherMap API / Google Maps API</p>
-                    <p class="proj-descrip">I'm a data-driven person and I've always loved data presented in a visually compelling way.  That's why I had such a great time building this React/Redux app. When you search for a city, the fetchWeather action makes an api call to openweathermap.org API via axios and then passes the request promise to the reducer. The redux-promise npm package in the reducer pulls the weather data from the promise and updates the state with the new data. This info is then passed to the WeatherList component and the necessary data is extracted in order to display the map for each city (via the Google Maps API in the google_map.js component) along with the upcoming weather data that is passed down to the chart.js component (charts are generated using the Sparklines npm package). Feel free to clone the repo and try it for yourself!
+                    <p class="proj-descrip">I'm a data-driven person and I've always loved data presented in a visually compelling way.  That's why I had such a great time building this React app while also learning Redux. When you search for a city, the fetchWeather action makes an api call to openweathermap.org API via axios and then passes the request promise to the reducer. The redux-promise npm package in the reducer pulls the weather data from the promise and updates the state with the new data. This info is then passed to the WeatherList container and the necessary location data is extracted in order to display the map for each city (via the Google Maps API in the google_map.js component) along with the upcoming weather data that is passed down to the chart.js component (charts are generated using the Sparklines npm package). Feel free to clone the repo and try it for yourself!
                     </p>
 
                 </div>
