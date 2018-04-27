@@ -430,6 +430,7 @@ project page
 @media screen and (max-width: 736px) {
   #proj-text-icons{
     margin-top: 20px;
+    margin-left: 0;
     width: 100%;
     display: flex;
     flex-direction: row;
