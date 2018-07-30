@@ -105,13 +105,13 @@ div.parallax-container {
 }
 
 #title-main{
-  font-size: 80px;
+  font-size: 103px;
   letter-spacing: 10px;
   margin: 0;
 }
 
 #title-sub{
- width: 325px;
+ width: 700px;
   font-size:2em;
   margin-bottom:40px;
   border-top: 2px solid var(--grey);
@@ -412,6 +412,9 @@ project page
 
 
 @media screen and (max-width: 750px) {
+  #title-sub{
+    width: 325px;
+  }
   div.parallax-container {
     height: 250px;
   }
