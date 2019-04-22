@@ -16,11 +16,9 @@
 }
 
 :root {
-  --ocean: #338286;
   --eggplant: #4f3558;
   --offwhite: #e9e7ea;
   --grey: #919096;
-  --teal: #02a68e;
 }
 
 /* NAV START */
@@ -38,6 +36,7 @@ nav ul a {
 nav ul a,
 ul.dropdown-content li a {
   color: var(--offwhite);
+  background-color: var(--eggplant);
 }
 
 nav .brand-logo,
@@ -50,9 +49,8 @@ ul.dropdown-content li a span,
 nav .brand-logo {
   letter-spacing: 8px;
 }
-
-ul.dropdown-content li a span:hover {
-  color: var(--eggplant);
+.dropdown-text:hover {
+  color: var(--offwhite);
 }
 
 ul.dropdown-content,
