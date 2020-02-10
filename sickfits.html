@@ -21,8 +21,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+ 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -135,7 +139,7 @@
                 </div>
                 <div id="proj-text">
                     <p class="proj-tech">React / Apollo GraphQL / Next / Cloudinary / Styled Components / Stripe Payment Integration / Node /  GraphQL Yoga / JSON Web Token Authentication / Prisma Postgres Database / Heroku </p>
-                    <p class="proj-descrip">Sick Fits is an richly-featured online store built as the result of Wes Bos' "Advanced React & GraphQL" course. Users are able peruse the paginated contents of the store, add and modify their cart, and make mock purchases via the Stripe payment API.  Admin users can create new items complete with images, control and modify permissions for other users.  Instead of using a RESTful API and data store like redux, all data and state management is handled via the GraphQL Apollo Client and the GraphQL Yoga server. </p>
+                    <p class="proj-descrip">Sick Fits is an richly-featured online store built as the result of Wes Bos' "Advanced React & GraphQL"  course. Users are able peruse the paginated contents of the store, add and modify their cart, and make mock purchases via the Stripe payment API.  Admin users can create new items complete with images, control and modify permissions for other users.  Instead of using a RESTful API and data store like redux, all data and state management is handled via the GraphQL Apollo Client and the GraphQL Yoga server. </p>
                 </div>
 
             </div>
@@ -149,14 +153,16 @@
     <!-- footer -->
     <footer class="page-footer" id="navigation-bottom">
         <div class="container center" id="copyright">
-            © 2018 Denis Molloy
+            © <span id="insertYear"></span> Denis Molloy
         </div>
     </footer>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/portfolio.js"></script>
+    <script>
+        document.getElementById(
+          'insertYear'
+        ).textContent = new Date().getFullYear();
+      </script>
 </body>
 
 </html>
