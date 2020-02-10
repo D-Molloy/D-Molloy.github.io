@@ -1,169 +1,260 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-81001809-2"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-81001809-2"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-        gtag('config', 'UA-81001809-2');
+      gtag('config', 'UA-81001809-2');
     </script>
     <title>Denis Molloy | Weather Redux</title>
-    <meta name="description" content="Denis Molloy - A Seattle-based Web Developer who loves creating unique and engaging user experiences.  Passionate about programming, new technologies, and being a part of something greater than myself.">
+    <meta
+      name="description"
+      content="Denis Molloy - A Seattle-based Web Developer who loves creating unique and engaging user experiences.  Passionate about programming, new technologies, and being a part of something greater than myself."
+    />
     <!-- Favicon -->
-    <link rel="shortcut icon" type="img/<png>" href="images/fav.png">
+    <link rel="shortcut icon" type="img/<png>" href="images/fav.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.css"
+      media="screen,projection"
+    />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- navbar -->
     <nav>
-        <div class="nav-wrapper" id="navigation-top">
-            <ul id="nav-mobile" class="right hide-on-med-and-down ">
-                <li>
-                    <a href="index.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <!-- Dropdown Trigger -->
-                    <a class='dropdown-button' href='#' data-activates='dropdown1'>Connect</a>
-                </li>
-            </ul>
+      <div class="nav-wrapper" id="navigation-top">
+        <ul id="nav-mobile" class="right hide-on-med-and-down ">
+          <li>
+            <a href="index.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <!-- Dropdown Trigger -->
+            <a class="dropdown-button" href="#" data-activates="dropdown1"
+              >Connect</a
+            >
+          </li>
+        </ul>
 
-            <a href="index.html" id="top-page" class="brand-logo center">
-                <span class="title-name">Denis Molloy</span>
+        <a href="index.html" id="top-page" class="brand-logo center">
+          <span class="title-name">Denis Molloy</span>
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+
+        <!-- Dropdown Trigger-->
+
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+          <li>
+            <a class="right-align" href="tel:206-516-9335"
+              >Phone:
+              <span cleass="sub-text">206.516.9335</span>
             </a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse">
-                <i class="material-icons">menu</i>
+          </li>
+          <li>
+            <a class="right-align" href="mailto:denis.molloy@gmail.com"
+              >Email:
+              <span cleass="sub-text">denis.molloy@gmail.com</span>
             </a>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a
+              class="right-align"
+              href="https://github.com/D-Molloy"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              class="right-align"
+              href="https://www.linkedin.com/in/denismolloy/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              class="right-align"
+              href="https://twitter.com/Drimbane"
+              target="_blank"
+              rel="noopener"
+              >Twitter</a
+            >
+          </li>
+        </ul>
 
-            <!-- Dropdown Trigger-->
+        <ul class="side-nav" id="mobile-demo">
+          <li>
+            <a href="index.html" class="nav-header">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="nav-header">
+              About
+            </a>
+          </li>
 
-            <!-- Dropdown Structure -->
-            <ul id='dropdown1' class='dropdown-content'>
-                <li>
-                    <a class="right-align" href="tel:206-516-9335">Phone:
-                        <span cleass="sub-text">206.516.9335</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="right-align" href="mailto:denis.molloy@gmail.com">Email:
-                        <span cleass="sub-text">denis.molloy@gmail.com</span>
-                    </a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a class="right-align" href="https://github.com/D-Molloy" target="_blank" rel="noopener">GitHub</a>
-                </li>
-                <li>
-                    <a class="right-align" href="https://www.linkedin.com/in/denismolloy/" target="_blank" rel="noopener">LinkedIn</a>
-                </li>
-                <li>
-                    <a class="right-align" href="https://twitter.com/Drimbane" target="_blank" rel="noopener">Twitter</a>
-                </li>
-            </ul>
-
-
-            <ul class="side-nav" id="mobile-demo">
-                <li>
-                    <a href="index.html" class="nav-header">
-                        Portfolio
-                    </a>
-                </li>
-                <li>
-                    <a href="about.html" class="nav-header">
-                        About
-                    </a>
-                </li>
-
-                <li class="divider"></li>
-                <li>
-                    <a class="left-align" href="tel:206-516-9335">Phone:
-                        <span cleass="sub-text">206.516.9335</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="left-align" href="mailto:denis.molloy@gmail.com">Email:
-                        <span cleass="sub-text">denis.molloy@gmail.com</span>
-                    </a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <a class="left-align" href="https://github.com/D-Molloy" target="_blank" rel="noopener">GitHub</a>
-                </li>
-                <li>
-                    <a class="left-align" href="https://www.linkedin.com/in/denismolloy/" target="_blank" rel="noopener">LinkedIn</a>
-                </li>
-                <li>
-                    <a class="left-align" href="https://twitter.com/Drimbane" target="_blank" rel="noopener">Twitter</a>
-                </li>
-            </ul>
-        </div>
+          <li class="divider"></li>
+          <li>
+            <a class="left-align" href="tel:206-516-9335"
+              >Phone:
+              <span cleass="sub-text">206.516.9335</span>
+            </a>
+          </li>
+          <li>
+            <a class="left-align" href="mailto:denis.molloy@gmail.com"
+              >Email:
+              <span cleass="sub-text">denis.molloy@gmail.com</span>
+            </a>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a
+              class="left-align"
+              href="https://github.com/D-Molloy"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              class="left-align"
+              href="https://www.linkedin.com/in/denismolloy/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              class="left-align"
+              href="https://twitter.com/Drimbane"
+              target="_blank"
+              rel="noopener"
+              >Twitter</a
+            >
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- end navbar -->
 
     <div class="section" id="main-body">
-        <div class="row container">
-            <h4 class="proj-header">Weather Redux</h4>
-            <div class="divider"></div>
-            <div id="proj-page-container">
+      <div class="row container">
+        <h4 class="proj-header">Weather Redux</h4>
+        <div class="divider"></div>
+        <div id="proj-page-container">
+          <div class="proj-page-info">
+            <img
+              src="images/weather.png"
+              alt="Weather Redux screenshot"
+              class="responsive-img"
+              id="proj-pic"
+            />
 
-                <div class="proj-page-info">
-                    <img src="images/weather.png" alt="Weather Redux screenshot" class="responsive-img" id="proj-pic">
-
-                    <div id="proj-text-icons">
-                        <a href="https://dkm-weather-redux.herokuapp.com/" target="_blank" rel="noopener">
-                            <img src="images/open-white.png" alt="Open project in browser" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
-                                data-tooltip="Open in browser">
-                        </a>
-                        <a href="https://github.com/D-Molloy/react-redux-weather" target="_blank" rel="noopener">
-                            <img src="images/github-white.png" alt="View Github Repo" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
-                                data-tooltip="View repository">
-                        </a>
-
-                    </div>
-                </div>
-                <div id="proj-text">
-                    <p class="proj-tech">React / Redux / CSS / Bootstrap / NPM / OpenWeatherMap API / Google Maps API</p>
-                    <p class="proj-descrip">I'm a data-driven person and I've always loved data presented in a visually compelling way.  That's why I had such a great time building this React app while also learning Redux. When you search for a city, the fetchWeather action makes an api call to openweathermap.org API via axios and then passes the request promise to the reducer. The redux-promise npm package in the reducer pulls the weather data from the promise and updates the state with the new data. This info is then passed to the WeatherList container and the necessary location data is extracted in order to display the map for each city (via the Google Maps API in the google_map.js component) along with the upcoming weather data that is passed down to the chart.js component (charts are generated using the Sparklines npm package). Feel free to clone the repo and try it for yourself!
-                    </p>
-
-                </div>
-
-
-
+            <div id="proj-text-icons">
+              <a
+                href="https://dkm-weather-redux.herokuapp.com/"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  src="images/open-white.png"
+                  alt="Open project in browser"
+                  class="proj-icon tooltipped"
+                  data-position="bottom"
+                  data-delay="50"
+                  data-tooltip="Open in browser"
+                />
+              </a>
+              <a
+                href="https://github.com/D-Molloy/react-redux-weather"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  src="images/github-white.png"
+                  alt="View Github Repo"
+                  class="proj-icon tooltipped"
+                  data-position="bottom"
+                  data-delay="50"
+                  data-tooltip="View repository"
+                />
+              </a>
             </div>
-            <div class="divider"></div>
-
+          </div>
+          <div id="proj-text">
+            <p class="proj-tech">
+              React / Redux / CSS / Bootstrap / NPM / OpenWeatherMap API /
+              Google Maps API
+            </p>
+            <p class="proj-descrip">
+              I'm a data-driven person and I've always loved data presented in a
+              visually compelling way. That's why I had such a great time
+              building this React app while also learning Redux. When you search
+              for a city, the fetchWeather action makes an api call to
+              openweathermap.org API via axios and then passes the request
+              promise to the reducer. The redux-promise npm package in the
+              reducer pulls the weather data from the promise and updates the
+              state with the new data. This info is then passed to the
+              WeatherList container and the necessary location data is extracted
+              in order to display the map for each city (via the Google Maps API
+              in the google_map.js component) along with the upcoming weather
+              data that is passed down to the chart.js component (charts are
+              generated using the Sparklines npm package). Feel free to clone
+              the repo and try it for yourself!
+            </p>
+          </div>
         </div>
-        <!-- End Tech panel -->
-
+        <div class="divider"></div>
+      </div>
+      <!-- End Tech panel -->
     </div>
 
     <!-- footer -->
     <footer class="page-footer" id="navigation-bottom">
-        <div class="container center" id="copyright">
-            © 2018 Denis Molloy
-        </div>
+      <div class="container center" id="copyright">
+        © <span id="insertYear"></span> Denis Molloy
+      </div>
     </footer>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/portfolio.js"></script>
-</body>
-
+    <script>
+      document.getElementById(
+        'insertYear'
+      ).textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
