@@ -12,9 +12,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag("js", new Date());
+      gtag('js', new Date());
 
-      gtag("config", "UA-81001809-2");
+      gtag('config', 'UA-81001809-2');
     </script>
     <title>Denis Molloy | Software Engineer</title>
     <meta
@@ -29,13 +29,15 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <!--Import materialize.css-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
     <link
-      type="text/css"
       rel="stylesheet"
-      href="css/materialize.css"
-      media="screen,projection"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
     />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link type="text/css" rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -79,7 +81,9 @@
             <a
               class="right-align"
               href="https://github.com/D-Molloy"
-              target="_blank" rel="noopener" rel="noopener"
+              target="_blank"
+              rel="noopener"
+              rel="noopener"
               >GitHub</a
             >
           </li>
@@ -87,7 +91,9 @@
             <a
               class="right-align"
               href="https://www.linkedin.com/in/denismolloy/"
-              target="_blank" rel="noopener" rel="noopener"
+              target="_blank"
+              rel="noopener"
+              rel="noopener"
               >LinkedIn</a
             >
           </li>
@@ -95,7 +101,9 @@
             <a
               class="right-align"
               href="https://twitter.com/Drimbane"
-              target="_blank" rel="noopener" rel="noopener"
+              target="_blank"
+              rel="noopener"
+              rel="noopener"
               >Twitter</a
             >
           </li>
@@ -125,7 +133,8 @@
             <a
               class="left-align"
               href="https://github.com/D-Molloy"
-              target="_blank" rel="noopener"
+              target="_blank"
+              rel="noopener"
               >GitHub</a
             >
           </li>
@@ -133,7 +142,8 @@
             <a
               class="left-align"
               href="https://www.linkedin.com/in/denismolloy/"
-              target="_blank" rel="noopener"
+              target="_blank"
+              rel="noopener"
               >LinkedIn</a
             >
           </li>
@@ -141,7 +151,8 @@
             <a
               class="left-align"
               href="https://twitter.com/Drimbane"
-              target="_blank" rel="noopener"
+              target="_blank"
+              rel="noopener"
               >Twitter</a
             >
           </li>
@@ -516,7 +527,11 @@
             </a>
           </div>
           <div class="connect-div">
-            <a href="https://www.linkedin.com/in/denismolloy/" target="_blank" rel="noopener">
+            <a
+              href="https://www.linkedin.com/in/denismolloy/"
+              target="_blank"
+              rel="noopener"
+            >
               <img
                 src="images/linkedin-purple.png"
                 alt="connect via LinkedIn"
@@ -528,7 +543,11 @@
             </a>
           </div>
           <div class="connect-div">
-            <a href="https://github.com/D-Molloy" target="_blank" rel="noopener">
+            <a
+              href="https://github.com/D-Molloy"
+              target="_blank"
+              rel="noopener"
+            >
               <img
                 src="images/github-purple.png"
                 alt="connect via github"
@@ -540,7 +559,11 @@
             </a>
           </div>
           <div class="connect-div">
-            <a href="https://twitter.com/Drimbane" target="_blank" rel="noopener">
+            <a
+              href="https://twitter.com/Drimbane"
+              target="_blank"
+              rel="noopener"
+            >
               <img
                 src="images/twitter-purple.png"
                 alt="connect via twitter"
@@ -557,11 +580,15 @@
 
     <footer class="page-footer" id="navigation-bottom">
       <div class="container center" id="copyright">
-        © 2018 Denis Molloy
+        © <span id="insertYear"></span> Denis Molloy
       </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
+
     <script type="text/javascript" src="js/portfolio.js"></script>
+    <script>
+      document.getElementById(
+        'insertYear'
+      ).textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
