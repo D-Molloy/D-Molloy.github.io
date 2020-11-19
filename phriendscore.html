@@ -14,7 +14,7 @@
 
         gtag('config', 'UA-81001809-2');
     </script>
-    <title>Denis Molloy | About</title>
+    <title>Denis Molloy | PhriendScore</title>
     <meta name="description" content="Denis Molloy - A Seattle-based Web Developer who loves creating unique and engaging user experiences.  Passionate about programming, new technologies, and being a part of something greater than myself.">
     <!-- Favicon -->
     <link rel="shortcut icon" type="img/<png>" href="images/fav.png">
@@ -37,6 +37,9 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down ">
                 <li>
                     <a href="index.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
                 </li>
                 <li>
                     <!-- Dropdown Trigger -->
@@ -77,10 +80,16 @@
                 </li>
             </ul>
 
+
             <ul class="side-nav" id="mobile-demo">
                 <li>
                     <a href="index.html" class="nav-header">
                         Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html" class="nav-header">
+                        About
                     </a>
                 </li>
                 <li class="divider"></li>
@@ -109,71 +118,46 @@
     </nav>
     <!-- end navbar -->
 
-    <!-- start parallax -->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="images/bg-katwalk.png">
-        </div>
-    </div>
-    <div class="section" id="about-body">
+    <div class="section" id="main-body">
         <div class="row container">
-            <h4 class="header">About Me</h4>
+            <h4 class="proj-header">PhriendScore</h4>
             <div class="divider"></div>
-            <div id="about-container">
-                <img src="images/profile.png" alt="Denis profile pic" class="responsive-img" id="profile-pic">
-                <div id="about-text">
-                    <p class="about-text-head">Developer with a driving passion for creativity, team building, and execution.</p>
-                    <p class="about-text-main">After nearly a decade in Project Management, Product Development, and Quality Assurance, I decided to
-                        change careers seeking a more fulfilling, challenging, and dynamic work life. Immersing myself in
-                        development has resulted in the most rewarding work I've ever done. I would love to bring my
-                        passion and energy to your company. Please check out my GitHub page and get in touch if you like what you
-                        see!
-                    </p>
+            <div id="proj-page-container">
+
+                <div class="proj-page-info">
+                    <img src="images/phriendscore.png" alt="PhriendScore responsive layout screenshot" class="responsive-img" id="proj-pic">
+                    <div id="proj-text-icons">
+                        <a href="https://www.phriendscore.com/" target="_blank" rel="noopener">
+                            <img src="images/open-white.png" alt="Open public site in browser" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
+                                data-tooltip="Visit PhriendScore.com">
+                        </a>
+                        <a href="https://github.com/D-Molloy/phriend-card-client" target="_blank" rel="noopener">
+                            <img src="images/github-white.png" alt="View Github Repo" class="proj-icon tooltipped" data-position="bottom" data-delay="50"
+                                data-tooltip="View repository">
+                        </a>
+                    </div>
                 </div>
-                <div id="about-text-icons">
-                    <a href="tel:206-516-9335" target="_blank" rel="noopener" rel="noopener" >
-                        <img src="images/phone-white.png" alt="call denis' resume" class="about-icon tooltipped" id="about-phone" data-position="bottom"
-                            data-delay="50" data-tooltip="Call Me">
-                    </a>
-                    <a href="mailto:denis.molloy@gmail.com">
-                        <img src="images/email.png" alt="connect via email" class="about-icon tooltipped" data-position="bottom" data-delay="50"
-                            data-tooltip="Email Me">
-                    </a>
-                    <a href="docs/denis_molloy_resume.pdf" target="_blank" rel="noopener"></a>
-                    <img src="images/download-white.png" alt="download denis' resume" class="about-icon tooltipped" data-position="bottom" data-delay="50"
-                        data-tooltip="Download Resume">
-                    </a>
-                    <a href="https://www.linkedin.com/in/denismolloy/" target="_blank" rel="noopener" rel="noopener">
-                        <img src="images/li-white.png" alt="connect via LinkedIn" class="about-icon tooltipped" data-position="bottom" data-delay="50"
-                            data-tooltip="LinkedIn Profile">
-                    </a>
-                    <a href="https://github.com/D-Molloy" target="_blank" rel="noopener" rel="noopener">
-                        <img src="images/github-white.png" alt="connect via github" class="about-icon tooltipped" data-position="bottom" data-delay="50"
-                            data-tooltip="GitHub Profile">
-                    </a>
-                    <a href="https://twitter.com/Drimbane" target="_blank" rel="noopener" rel="noopener">
-                        <img src="images/twtr-white.png" alt="connect via twitter" class="about-icon tooltipped" data-position="bottom" data-delay="50"
-                            data-tooltip="Twitter Page"> </a>
+                <div id="proj-text">
+                    <p class="proj-tech">Vue / Vuex / Vuetify / Netlify/ Node /  Express / JWT / MongoDB Atlas / Heroku / Responsive Design</p>
+                    <p class="proj-descrip">PhriendScore is my passion project.  It's an idea for an app I had for ages that started as a spreadsheet for tracking all of the Phish concerts I've seen. Once COVID hit I took the time quarantining as an opportunity to make the dream a reality.  Not only did I end up learning Vue, Vuex for state management, and Vuetify, but I really grew my JS/MongoDB chops by utilizing virtual database properties to take a single html string from the Phish.net API and parsing it into personalized concert statistics thats hundreds of 'Phans' enjoy.  </p>
                 </div>
 
             </div>
-            <div class="divider"></div>
-
+            
         </div>
-        <!-- End Tech panel -->
 
     </div>
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="images/bg-tongue.png">
-        </div>
+    <!-- End Tech panel -->
     </div>
+
     <!-- footer -->
     <footer class="page-footer" id="navigation-bottom">
         <div class="container center" id="copyright">
             © <span id="insertYear"></span> Denis Molloy
         </div>
     </footer>
+
+
 
     <script type="text/javascript" src="js/portfolio.js"></script>
     <script>
